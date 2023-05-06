@@ -23,7 +23,7 @@ Ex. maven-archetype-quickstart: java standalone app
 ### Pre-requisite:
 
 
-**1) Install Java **
+**1) Install Java**
 
 Download java from oracle site : "https://www.oracle.com/sg/java/technologies/javase/javase8-archive-downloads.html"
 
@@ -38,7 +38,7 @@ Path: path = c:\program files\java\jdk.8.0_202\bin
 Verify java installation using command $ java -version
 
 
-**2) Install Maven **
+**2) Install Maven**
 
 Download apache maven 3.9.1 from apache site : "https://maven.apache.org/download.cgi"
 Extract file "apache-maven-3.8.5-bin.zip" to the folder "c:\program files" 
