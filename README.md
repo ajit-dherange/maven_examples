@@ -14,7 +14,7 @@ Maven archetype represent what type of project is
 
 Maven providing 1500+ archetype
 
-e.g. maven-archetype-quickstart: java standalone app
+     maven-archetype-quickstart: java standalone app
 
      maven-archetype-webapp: java web app
     
