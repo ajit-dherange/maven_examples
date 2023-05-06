@@ -1,4 +1,4 @@
-# Mmaven_examples
+# Maven_examples
 
 Maven is open source developed by Apache org
 
@@ -23,7 +23,7 @@ maven-archetype-webapp: java web app
 ### Pre-requisite:
 
 
-**1) Install Java
+** **1) Install Java
 
 Download java from oracle site : "https://www.oracle.com/sg/java/technologies/javase/javase8-archive-downloads.html"
 
@@ -38,7 +38,7 @@ Path: path = c:\program files\java\jdk.8.0_202\bin
 Verify java installation using command $ java -version
 
 
-**2) Install Maven
+** **2) Install Maven
 
 Download apache maven 3.9.1 from apache site : "https://maven.apache.org/download.cgi"
 Extract file "apache-maven-3.8.5-bin.zip" to the folder "c:\program files" 
@@ -64,7 +64,7 @@ Verify java installation using command $ mvn -version
 $ mvn archetype:generate "-DgroupId=com.javan.dev" "-DartifactId=MyMavenApp01" "-DarchetypeArtifactId=maven-archetype-quickstart" "-DinteractiveMode=false"
 ```
 
-If command run succesfully then Check "MyMavenApp01" folder got created and Verify "src" folder & "pom.xml" file present in it
+  If command run succesfully then Check "MyMavenApp01" folder got created and Verify "src" folder & "pom.xml" file present in it
 
 4. Compile java code 
 
@@ -72,7 +72,7 @@ If command run succesfully then Check "MyMavenApp01" folder got created and Veri
 $ mvn compile 
 ```
 
-If command run succesfully then Verify "target" folder folder present inside "MyMavenApp01" along with "src"
+  If command run succesfully then Verify "target" folder folder present inside "MyMavenApp01" along with "src"
 
 5. Test the code (optional)
 
@@ -80,7 +80,7 @@ If command run succesfully then Verify "target" folder folder present inside "My
 $ mvn test 
 ```
 
-If command run succesfully and there are no errors
+  Verify command run succesfully and there are no errors
 
 6. Create Package
 
@@ -88,7 +88,7 @@ If command run succesfully and there are no errors
 $ mvn package 
 ```
 
-If command run succesfully then Verify jar file got created in the target folder, you can use this jar package to deploy on the web server 
+  If command run succesfully then Verify jar file got created in the target folder, you can use this jar package to deploy on the web server 
 
 
 ### Example 2 : Create WebApp Package
@@ -103,7 +103,7 @@ If command run succesfully then Verify jar file got created in the target folder
 $ mvn archetype:generate "-DgroupId=com.javan.dev" "-DartifactId=MyWebApp01" "-DarchetypeArtifactId=maven-archetype-webapp" "-DinteractiveMode=false"
 ```
 
-If command run succesfully then Check "MyWebApp01" folder got created and Verify "src" folder & "pom.xml" file present in it
+  If command run succesfully then Check "MyWebApp01" folder got created and Verify "src" folder & "pom.xml" file present in it
 
 4. Compile java code 
 
@@ -111,7 +111,7 @@ If command run succesfully then Check "MyWebApp01" folder got created and Verify
 $ mvn compile 
 ```
 
-If command run succesfully then Verify "target" folder folder present inside "MyMavenApp01" along with "src"
+  If command run succesfully then Verify "target" folder folder present inside "MyMavenApp01" along with "src"
 
 5. Test the code (optional)
 
@@ -119,7 +119,7 @@ If command run succesfully then Verify "target" folder folder present inside "My
 $ mvn test 
 ```
 
-If command run succesfully and there are no errors
+  Verify command run succesfully and there are no errors
 
 6. Create Package
 
@@ -127,6 +127,6 @@ If command run succesfully and there are no errors
 $ mvn package 
 ```
 
-If command run succesfully then Verify jar file got created in the target folder, you can use this jar package to deploy on the web server 
+  If command run succesfully then Verify jar file got created in the target folder, you can use this jar package to deploy on the web server 
 
 
