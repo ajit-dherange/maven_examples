@@ -1,20 +1,34 @@
 # Maven_examples
 
-Maven is open source developed by Apache org
+**Maven is:**
 
-Maven developed using java
+Maven is a open source developed by Apache org
+
+Maven is developed using java language
 
 Maven used to perform build automation for java projects
 
 Maven called as java build tool
 
-archetype represent what type of project is
+Maven archetype represent what type of project is
 
 Maven providing 1500+ archetype
 
-Ex. maven-archetype-quickstart: java standalone app
+e.g. maven-archetype-quickstart: java standalone app
 
-    maven-archetype-webapp: java web app
+     maven-archetype-webapp: java web app
+    
+Maven pom file have dependencies
+
+Maven  will download dependencies using repos
+
+There are 3 types of Repos:
+
+    local - .m2 folder located in the user profile on local PC / Laptop (e.g. C:\Users\ajitd\.m2)
+
+    Remote - every co. maimtain their own repo. e.g. jrog, nexus
+
+    central - maintain by apache
 
 
 ## Create Java Package on Windows 11 using Maven
@@ -29,7 +43,7 @@ Download java from oracle site : "https://www.oracle.com/sg/java/technologies/ja
 
 Install jdk-8u202-windows-x64.exe
 
-set below system environment variables:
+Set below system environment variables:
 
 Home: JAVA_HOME = c:\program files\java\jdk.8.0_202
 
@@ -41,7 +55,8 @@ Verify java installation using command $ java -version
 **2) Install Maven**
 
 Download apache maven 3.9.1 from apache site : "https://maven.apache.org/download.cgi"
-Extract file "apache-maven-3.8.5-bin.zip" to the folder "c:\program files" 
+
+Extract file "apache-maven-3.8.5-bin.zip" in to the folder "c:\program files" 
 
 Set system environment variables:
 
